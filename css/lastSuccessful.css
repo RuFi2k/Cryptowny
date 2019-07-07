@@ -1,0 +1,16 @@
+.success{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 200px;
+}
+
+.success>p{
+    font-size: 12px;
+    color: grey;
+    margin-top: 25px;
+    margin-bottom: 80px;
+}
+
+.featured{
+    position: absolute;
+}

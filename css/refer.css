@@ -1,0 +1,348 @@
+.invite{
+    margin-left: auto;
+    margin-right: auto;
+    width: 74.9%;
+    height: 458px;
+    border-radius: 90px;
+    border-top-right-radius: 0;
+    background: linear-gradient(-45deg, #3a04a1, #8c47ee);
+    padding-left: 176px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.invInfo{
+    width: 650px;
+    line-height: 25px;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 129px;
+}
+
+.invInfo h3{
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+
+.invInfo button{
+    margin-top: 48px;
+    border: 1px solid #3a04a1;
+    padding: 25px 70px;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #3a04a1;
+    font-weight: bold;
+}
+
+.invImage{
+    width: 47.5%;
+}
+
+.invImage img{
+    margin-right: 2.5%;
+    transform: translateY(7.5%);
+}
+
+.instruction{
+    display: flex;
+    margin-left: 15vw;
+    width: 70%;
+    justify-content: space-between;
+    padding-bottom: 75px;
+}
+
+.instruction>div{
+    width: 17.5%;
+    margin-right: 7.55%;
+    font-size: 14px;
+}
+
+.instruction h4{
+    margin-bottom: 30px;
+}
+
+.instruction img{
+    width: 4.4vw;
+}
+
+.carouselItem>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: green;
+    padding: 7px 10px;
+    border-radius: 5px;
+    width: 413px;
+}
+
+.commission{
+    padding: 23px 31px;
+    border-radius: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.data{
+    margin-left: 40px;
+}
+
+.gold>div{
+    background-color: #8d2def;
+}
+
+.silver>div{
+    background-color: #fcc238;
+}
+
+.bronze>div{
+    background-color: #afafaf;
+}
+
+.carouselItem>img{
+    position: absolute;
+    width: 45px !important;
+    height: 47px;
+}
+
+.carousel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 240px;
+}
+
+.carousel>button img{
+    width: 100%;
+    opacity: 0.3;
+}
+
+.carouselItem{
+    margin-left: 15px;
+    margin-right: 15px;
+    box-shadow: 2px 2px 5px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 2px 5px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 5px -2px rgba(0,0,0,0.75);
+}
+
+.arrowLeft, .arrowRight{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;
+}
+
+.owl-carousel{
+    width: 1350px !important;
+    padding: 10px;
+}
+
+.active{
+    display: flex;
+    justify-content: center;
+}
+
+.carouselItem{
+    margin-right: 0 !important;
+}
+
+@media screen and (max-width: 1850px){
+    .instruction>div{
+        margin-right: 15%;
+    }
+}
+
+@media screen and (max-width: 1600px){
+    .invite{
+        align-items: center;
+        height: 400px;
+    }
+
+    .invInfo{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 1450px){
+    .invite{
+        height: 300px;
+        margin-bottom: 40px;
+    }
+
+    .invInfo button{
+        padding: 20px 50px;
+    }
+
+    .instruction>div{
+        width: 25%;
+    }
+
+    .owl-carousel{
+        width: 500px !important;
+    }
+}
+
+@media screen and (max-width: 1350px){
+    .invite{
+        padding-left: 100px;
+    }
+
+    .instruction{
+        width: 100%;
+        margin-left: 0;
+        justify-content: space-around;
+        text-align: center;
+    }
+    
+    .instruction>div{
+        margin-right: 0;
+    }
+
+    .carousel{
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 1250px){
+    .invInfo{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 1250px){
+    .invInfo{
+        width: 350px;
+    }
+
+    .invInfo button{
+        padding: 10px 25px;
+        font-weight: normal;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .invite{
+        width: 90%;
+    }
+
+    .instruction img{
+        width: 7.5vw;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .invite{
+        padding-left: 50px;
+    }
+
+    .invInfo button{
+        margin-top: 24px;
+    }
+
+    .invInfo h3{
+        font-size: 20px;
+    }
+
+    .invInfo p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .invInfo h3{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .invInfo p{
+        font-size: 8px;
+    }
+
+    .invInfo{
+        width: 250px;
+    }
+
+    .invImage{
+        width: 60%;
+    }
+
+    .invite{
+        flex-direction: column-reverse;
+        height: 400px;
+        justify-content: space-around;
+        padding-left: 0;
+        padding-bottom: 10px;
+        border-radius: 45px;
+        border-top-right-radius: 0;
+    }
+
+    .invInfo{
+        text-align: center;
+    }
+
+    .invInfo button{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .instruction{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .instruction>div{
+        width: 80%;
+    }
+
+    .instruction img{
+        width: 20vw;
+    }
+
+    .instruction h4{
+        font-size: 24px;
+    }
+    
+    .instruction p{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .carouselItem>div{
+        flex-direction: column;
+        width: 250px;
+    }
+
+    .owl-carousel{
+        width: 250px !important;
+        padding: 5px;
+    }
+
+    .data{
+        margin: 0;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .instruction img{
+        width: 30vw;
+    }
+
+    .instruction h4{
+        font-size: 20px;
+    }
+    
+    .instruction p{
+        font-size: 14px;
+        margin-bottom: 35px;
+    }
+
+    .carouselItem>div{
+        width: 200px;
+        padding-left: 25px;
+    }
+}

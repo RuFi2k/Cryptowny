@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: 'Muli', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+button{ 
+    cursor: pointer;
+}
+
+button:focus{
+    outline: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.main{
+    background: url(../img/bg.png) no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,189 @@
+.popUp{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1154px;
+    border-radius: 25px;
+    background: url(../img/popupbg.png) no-repeat;
+    background-size: cover;
+    padding: 25px;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 5px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px -2px rgba(0,0,0,0.75);
+    z-index: 10;
+    display: none;
+}
+
+.popUp>p{
+    color: grey;
+    font-size: 12px;
+}
+
+.popUp>h3{
+    font-size: 22px;
+    margin-bottom: 45px;
+    margin-top: 150px;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.copyLink{
+    display: flex;
+    background-color: #fff;
+    padding: 15px 27px;
+    border: 1px solid #ddd4ef;
+    align-items: center;
+    justify-content: center;
+}
+
+.shareLink{
+    padding: 15px 27px;
+    border: 1px solid #ddd4ef;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyLink img{
+    width: 23px;
+    filter: invert(100%);
+}
+
+.popupSocial{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 37px;
+}
+
+.popupSocial a{
+    padding: 26px;
+}
+
+#fb{
+    background: url(../img/popupSocial/soc_icon_Bg-01.svg) no-repeat;
+    background-size: cover;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-right: 40px;
+}
+
+#tw{
+    background: url(../img/popupSocial/soc_icons_Bg-02.svg) no-repeat;
+    background-size: cover;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 30px;
+    margin-right: 40px;
+}
+
+#lin{
+    background: url(../img/popupSocial/soc_icons_Bg-03.svg) no-repeat;
+    background-size: cover;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-right: 40px;
+}
+
+#mail{
+    background: url(../img/popupSocial/soc_icons_Bg-04.svg) no-repeat;
+    background-size: cover;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.xBtn{
+    float: right;
+    width: 28px;
+    height: 28px;
+    filter: invert(100%) opacity(40%);
+    background-color: #000;
+    border: 0;
+}
+
+@media screen and (max-width: 1450px){
+    .popUp{
+        width: 750px;
+    }
+
+    .popUp>h3{
+        margin-top: 75px;
+    }
+
+    .link{
+        margin-bottom: 75px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .popUp{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .shareLink{
+        padding: 10px 18px;
+        font-size: 12px;
+    }
+
+    .copyLink{
+        padding: 10px 18px;
+        font-size: 12px;
+    }
+
+    .copyLink img{
+        width: 15px;
+    }
+
+    #fb{
+        margin-right: 20px;
+    }
+
+    #tw{
+        margin-right: 20px;
+    }
+
+    #lin{
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .link{
+        flex-direction: column;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .shareLink{
+        text-overflow: hidden;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 450px){
+    #fb{
+        margin-right: 10px;
+        background-size: 100%;
+    }
+
+    #tw{
+        margin-right: 10px;
+    }
+
+    #lin{
+        margin-right: 10px;
+    }
+
+    .popupSocial a{
+        padding: 14px 20px !important;
+    }
+}
